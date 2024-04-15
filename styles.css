@@ -1,15 +1,9 @@
 body {
-    background-color: #eafb54;
-    margin: 0px;
-    padding: 0px;
+    background: linear-gradient(to bottom, #171E30, #24304A, #414859, #6b5d63, #9c746e, #d28064, #d28064, #e16c60, #b51a2a, #541b2e);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.cup {
-    height: 140px;
-    width: 180px;
-    border: 6px solid black;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    border-radius: 0px 0px 70px 70px;
+html {
+    color: white;
 }

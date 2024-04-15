@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to bottom, #335070, #6D597A, #b56576, #E56B6f, #E88C7D, #EAAC8B);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+html {
+    color: white;
+}
