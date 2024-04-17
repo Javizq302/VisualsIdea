@@ -2,19 +2,71 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Portafolio Giuliano</title>
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+
+  
+
+
   </head>
   <body>
 
     <!-- Navbar start here -->
 
     <nav class="navbar-default">
+      
+      <div class="navbar-header fixed-brand">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" id="menu-toggle">
+      <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+      </button>
+      <a class="navbar-main" href="#"><i class="fa fa-video-camera" aria-hidden="true"></i>VisualsIdea</a>
+      </div>
+
+      <!-- Contenedor principal de la pagina -->
+      <div id="wrapper">
+
+        <div id="sidebar-wrapper">
+          <ul class="sidebar-nav nav-stacked" id="menu">
+            
+            <li class="active">
+              <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-microphone fa-stack-1x "></i></span> Eventos </a>
+            </li>
+            
+            <li>
+              <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cutlery fa-stack-1x "></i></span> Comida </a>
+           </li>
+
+           <li>
+              <a href="#"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-music fa-stack-1x "></i></span> Baile </a>
+           </li>
+
+           <li>
+              <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-users fa-stack-1x "></i></span> Social Media </a>
+           </li>
+
+           <li>
+              <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x "></i></span>Contacto</a>
+           </li>
+                      
+          </ul>
+        </div>
+
+      </div>
+
 
     </nav>
 
     <!-- Navbar ends here -->
 
 
+
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
+    
   </body>
 </html>
