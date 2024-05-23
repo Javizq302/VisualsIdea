@@ -1,16 +1,10 @@
 html {
     background: linear-gradient(to bottom, #171E30, #24304A, #414859, #6b5d63, #9c746e, #d28064, #d28064, #e16c60, #b51a2a, #541b2e);
-    width: 100%;
-    height: 100%;
+    height: 7224px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
-.navbar {
-    text-align: right;
-
-}
-
-.navbar menu button {
-    background-color: black;
+body p {
+    color: white;
 }
