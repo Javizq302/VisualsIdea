@@ -11,6 +11,8 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Comienza la Side Bar*/
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -112,4 +114,33 @@ body {
     opacity: 1;
     pointer-events: none;
     transition-delay: calc(.1s * var(--i));
+}
+
+/* Termina la Side Bar*/
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 1440px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid black;
+    /* Cambia el color aquí */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-giuliano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 441px;
+    height: 498px;
+    mix-blend-mode: lighten;
+}
+
+.img-giuliano img {
+    max-width: 100%;
+    height: auto;
 }
