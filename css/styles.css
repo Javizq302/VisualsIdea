@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+html {}
+
+
 body {
     background: linear-gradient(to bottom, #171E30, #24304A 30%, #414859, #6b5d63, #9c746e, #d28064, #d28064, #e16c60, #b51a2a, #541b2e);
-    height: 7224px;
+    width: 100%;
+    min-height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
+    border: 5px dashed red;
 }
 
 /* Comienza la Side Bar*/
