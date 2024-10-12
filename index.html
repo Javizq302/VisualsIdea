@@ -1,61 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Visual Idea</title>
 
-    <!--Archivo CSS-->
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- Icons SideBar -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Portafolio Giuliano</title>
+        <!-- font link-->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
-  </head>
-  <body>
+        <!-- css file link -->
+         <link rel="stylesheet" href="css/style.css" />
+    </head>
 
-    <nav class="sidebar">
-      
-      <div class="logo-menu">
-        <h2 class="logo">Giuliano Medina</h2>
-        <i class='bx bx-menu toggle-btn'></i>
-      </div>
+    <body>
 
-      <ul class="list">
-        <li class="list-item active">
-          <a href="#">
-            <i class='bx bxs-dashboard' ></i>
-            <span class="link-name" style="--i:1">Dashboard</span>
-          </a>
-        </li>
-        <li class="list-item">
-          <a href="#">
-            <i class='bx bx-camera-movie'></i>
-            <span class="link-name" style="--i:2">Eventos</span>
-          </a>
-        </li>
-        <li class="list-item">
-          <a href="#">
-            <i class='bx bx-bowl-hot' ></i>
-            <span class="link-name" style="--i:3">Comida</span>
-          </a>
-        </li>
-        <li class="list-item">
-          <a href="#">
-            <i class='bx bxl-deezer' ></i>
-            <span class="link-name" style="--i:4">Baile</span>
-          </a>
-        </li>
-        <li class="list-item">
-          <a href="#">
-            <i class='bx bx-like' ></i>
-            <span class="link-name" style="--i:5">Social Media</span>
-          </a>
-        </li>
-      </ul>
+        <!-- Header Starts-->
+
+        <header class="header">
+
+            <a href="#home" class="logo">Visual Idea.</a>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="#" data-text="Inicio">Inicio</a>
+                <a href="#" data-text="Eventos">Eventos</a>
+                <a href="#" data-text="Comida">Comida</a>
+                <a href="#" data-text="Baile">Baile</a>
+                <a href="#" data-text="Redes Sociales">Redes Sociales</a>
+                <a href="#" data-text="Contacto">Contacto</a>
+            </nav>
+        </header>
+ 
+        <!-- Header ends-->
+
+        <!-- Home Starts -->
 
 
-    </nav>
+        <section class="home" id="home">
 
-    <script src="js/navbar.js"></script>
+            <h3>Hola, mi nombre es</h3>
+            <h3 class="home-text">Giuliano Medina</h3>
+            <h3>Y soy colorista de videos</h3>
 
-  </body>
+        </section>
+
+
+        <!-- Home ends -->
+
+
+
+
+
+
+
+
+        <!--js link-->
+        <script src="js/script.js"></script>
+
+    </body>
+
 </html>
