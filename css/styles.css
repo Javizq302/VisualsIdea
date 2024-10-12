@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root {
-    /*--main: #feed01;*/
+    /*Paleta de Colores*/
+    /*--yellow: #feed01;*/
+    /*--lightblue: #61788C*/
     --main: #61788C;
     --black: #000;
     --white: #fff;
